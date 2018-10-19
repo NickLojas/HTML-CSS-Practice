@@ -124,7 +124,6 @@ h1 {
 }
 a {
     text-decoration: none;
-    padding:5px 10px;
 }
 
 
@@ -137,7 +136,7 @@ a {
 .gameswrapper {
     margin: 0 auto;
     width: 80%;
-    background-color: yellow;
+    background-color: rgb(255,255,0);
 }
 .contactwrapper {
     margin: 0 auto;
@@ -193,9 +192,10 @@ ul li a:hover{
 /*Misc*/
 h2 {
 	font-size: 120%;
+    padding: 5px 5px;
 }
 p{
-	padding:5px 10px;
+	padding:10px;
 }
 h6 {
     padding-left: 10px;
@@ -231,4 +231,11 @@ h6 {
 }
 #githubclick {
     padding:0;
+}
+.padding{
+    padding:10px;
+}
+
+@media only screen and (min-width: 768px) {
+
 }
